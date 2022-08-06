@@ -497,9 +497,10 @@ body.landing #footer {
 
 .menuburger {
     display: flex;
-    margin-right: 32px;
+    margin-right: 20px;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 
 .aside_menu {
@@ -578,7 +579,20 @@ body.landing #footer {
 }
 
 @media screen and (max-width: 600px) {
-    .menu_list>ul>li a {
-        display: "";
+    .quotes_card1 {
+        padding: 0;
+        position: relative;
+        top: 100px;
+    }
+
+    .quotes_card2 {
+        padding: 0;
+        position: relative;
+        top: 200px;
+        right: 20px;
+    }
+
+    .menuburger h1 {
+        display: none;
     }
 }
