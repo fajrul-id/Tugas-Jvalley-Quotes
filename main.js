@@ -3,6 +3,7 @@ let menu_icon = document.getElementById('menu_icon');
 let aside_menu = document.getElementById('aside_menu');
 let close_icon = document.getElementById('close_icon');
 let menu_box = document.getElementById('menu_box');
+let quotesinput = document.getElementById('quotesinput')
 // show menu
 menu_icon.addEventListener('click', () => {
   aside_menu.style.display = 'flex';
@@ -18,3 +19,8 @@ close_icon.addEventListener('click', () => {
     aside_menu.style.display = 'none';
   }, 200);
 });
+
+//allert input berhasil
+quotesinput.addEventListener('click',() =>{
+  window.alert('Selamat Quotes Berhasil Di Tambahkan')
+} );
